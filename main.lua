@@ -30,7 +30,7 @@ local function calculateButtonTouch( event )
     local tax
     local total
  	
- 	diameterofpizza = diameterofpizzaTextField.text
+ 	  diameterofpizza = diameterofpizzaTextField.text
     subtotalofpizza = 0.75 + 1 + diameterofpizza * 0.5
     tax = subtotalofpizza * 0.13
     total = tax + subtotalofpizza
