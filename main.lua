@@ -23,8 +23,6 @@ calculateButton.y = display.contentCenterY
 calculateButton.id = "calculate button"
  
 local function calculateButtonTouch( event )
-    -- this function calculates the area of a square given the length of one of its sides
- 
     local diameterofpizza
     local subtotalofpizza
     local tax
